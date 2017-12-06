@@ -45,7 +45,10 @@ void node_print()
 {
 	node* temp = head;
 	if (head == NULL)
+	{
+		printf("None of Files\n");
 		return;
+	}
 	while (1)
 	{
 		printf("%s: %d°³\n", temp->name, temp->data);

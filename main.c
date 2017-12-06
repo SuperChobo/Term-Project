@@ -29,10 +29,13 @@ int main(int argc, char* argv[])
 	}while (_findnext(load, &txt)== 0);
 
 	//Ãâ·Â
+
+	printf("-----------------------------------------\n");
+	printf("File name: number of words   \n\n");
 	node_print();
 
 	b = clock();
-	printf("%lf\n",(double)(b - a) / (double)CLOCKS_PER_SEC);
+	printf("\n** Time: %lf\n",(double)(b - a) / (double)CLOCKS_PER_SEC);
 
 	return 0;
 }
