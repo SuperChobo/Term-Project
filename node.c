@@ -49,6 +49,9 @@ void node_print()
 		printf("None of Files\n");
 		return;
 	}
+
+	printf("File name: number of words   \n\n");
+
 	while (1)
 	{
 		printf("%s: %d°³\n", temp->name, temp->data);

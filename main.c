@@ -31,7 +31,6 @@ int main(int argc, char* argv[])
 	//Ãâ·Â
 
 	printf("-----------------------------------------\n");
-	printf("File name: number of words   \n\n");
 	node_print();
 
 	b = clock();
