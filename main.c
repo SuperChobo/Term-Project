@@ -5,6 +5,9 @@ int main(int argc, char* argv[])
 	int i;
 	int load;
 	int a,b;
+
+	tnum = 0;
+
 	strcpy(word, argv[1]);
 	a = clock();
 
@@ -34,7 +37,8 @@ int main(int argc, char* argv[])
 	node_print();
 
 	b = clock();
-	printf("\n** Time: %lf\n",(double)(b - a) / (double)CLOCKS_PER_SEC);
+	printf("\n* %d files", tnum);
+	printf("\n** Time: %lf **\n",(double)(b - a) / (double)CLOCKS_PER_SEC);
 
 	return 0;
 }

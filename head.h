@@ -24,6 +24,8 @@ struct node {
 
 search txt;
 node* head;
+
 int many;
+int tnum;
 
 char word[word_MAX];

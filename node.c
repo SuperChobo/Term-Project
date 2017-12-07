@@ -55,6 +55,7 @@ void node_print()
 	while (1)
 	{
 		printf("%s: %d°³\n", temp->name, temp->data);
+		tnum++;
 		if (temp->next == NULL)
 			return;
 		temp = temp->next;
